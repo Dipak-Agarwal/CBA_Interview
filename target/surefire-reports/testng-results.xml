@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-13T12:39:13Z" name="Parallel tests" finished-at="2021-04-13T12:39:23Z" duration-ms="9603">
+    <groups>
+    </groups>
+    <test started-at="2021-04-13T12:39:13Z" name="Test One" finished-at="2021-04-13T12:39:23Z" duration-ms="9603">
+      <class name="myDemoProject.NewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:13Z" name="setup" finished-at="2021-04-13T18:09:20Z" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_QueryInputAndSearchButtonOnMainScreen()[pri:0, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:20Z" name="test_QueryInputAndSearchButtonOnMainScreen" finished-at="2021-04-13T18:09:20Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_QueryInputAndSearchButtonOnMainScreen -->
+        <test-method signature="test_SearchWithEmptyQuery()[pri:1, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:20Z" name="test_SearchWithEmptyQuery" finished-at="2021-04-13T18:09:21Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchWithEmptyQuery -->
+        <test-method signature="test_SearchForIsland()[pri:2, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:21Z" name="test_SearchForIsland" finished-at="2021-04-13T18:09:21Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchForIsland -->
+        <test-method signature="test_SearchForCastle()[pri:3, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:21Z" name="test_SearchForCastle" finished-at="2021-04-13T18:09:21Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchForCastle -->
+        <test-method signature="test_SearchForPort()[pri:4, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:21Z" name="test_SearchForPort" finished-at="2021-04-13T18:09:22Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchForPort -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myDemoProject.NewTest@5af97850]" started-at="2021-04-13T18:09:22Z" name="tearDown" finished-at="2021-04-13T18:09:23Z" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myDemoProject.NewTest -->
+    </test> <!-- Test One -->
+  </suite> <!-- Parallel tests -->
+</testng-results>
